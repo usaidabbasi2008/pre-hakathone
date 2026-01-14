@@ -1,0 +1,27 @@
+.bgb{
+ border-color:  #31135E ;
+ border-width: 2px;
+}
+.bgb2{
+    background-color: #31135E;
+    color: aliceblue;
+    
+}
+.txtc{
+    color: #31135E !important;
+    
+}
+.txt2{
+    color: palevioletred;
+}
+.color{
+    background: #F6F2FF;
+
+}
+.imgb{
+    background-image: url(image/Ellipse\ 14.png);
+    background-size: cover;
+}
+.imgw{
+    
+}
