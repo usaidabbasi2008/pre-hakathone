@@ -1,18 +1,74 @@
 .bgb{
- border-color:  #31135E ;
- border-width: 2px;
+ border: #8665d2 2px solid;
+  
+  color: #6a5af9;
+  border: 2px solid #6a5af9;
+  padding: 8px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+ 
+ 
+}
+.bgb:hover {
+    background: #8665d2;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(122, 107, 255, 0.5);
+    border: none;     background: linear-gradient(90deg, #5b4ef5, #7c4df3);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(106, 90, 249, 0.5);
+    color: #fff;
+
 }
 .bgb2{
-    background-color: #31135E;
-    color: aliceblue;
+    background: linear-gradient(90deg, #6a5af9, #8b5cf6);
+    color: #fff;
+    border: none;
     
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow: 0 6px 15px rgba(106, 90, 249, 0.4);
+    transition: all 0.3s ease;
+    background: linear-gradient(90deg, #422fec, #6f4eb9);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(106, 90, 249, 0.4);
+    transition: all 0.3s ease;
+    background: linear-gradient(90deg, #4733fa, #8665d2);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(106, 90, 249, 0.4);
+    transition: all 0.3s ease;
+}
+
+.bgb2:hover {
+     background: linear-gradient(90deg, #5b4ef5, #7c4df3);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(106, 90, 249, 0.5);
+    color: #fff;
+     background: linear-gradient(90deg, #5b4ef5, #7c4df3);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(106, 90, 249, 0.5);
+    color: #fff;
 }
 .txtc{
     color: #31135E !important;
     
+    
 }
 .txt2{
-    color: palevioletred;
+color: #b85cf6;
 }
 .color{
     background: #F6F2FF;
@@ -21,7 +77,4 @@
 .imgb{
     background-image: url(image/Ellipse\ 14.png);
     background-size: cover;
-}
-.imgw{
-    
 }
